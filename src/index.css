@@ -5,3 +5,6 @@
   --breakpoint-tablet: 900px;
   --breakpoint-mobile: 500px;
 }
+html {
+  scroll-behavior: smooth;
+}

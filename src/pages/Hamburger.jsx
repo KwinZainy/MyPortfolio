@@ -7,8 +7,8 @@ const Hamburger = () => {
   return (
     <div>
         <div>
-        <button onClick={() =>(setIsOpen(!isOpen))} className=' hover:text-white'>
-            {isOpen? <IoMdClose size={30}/> : <RxHamburgerMenu size={30}/>}
+        <button onClick={() =>(setIsOpen(!isOpen))} className=' hover:text-[#074188]'>
+            {isOpen? <IoMdClose size={30} className=' text-white'/> : <RxHamburgerMenu size={30} className=' text-white'/>}
         </button >
         </div>
             <div  className=' bg-white  py-10 shadow-md z-50 w-full fixed left-0 top-20 h-dvh'>

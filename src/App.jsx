@@ -1,16 +1,19 @@
 import React from 'react'
 import Nav from './Static/Nav'
-import { BrowserRouter, Router,Route } from 'react-router-dom'
+import Home from './pages/Home'
+import Contact from './pages/Contact'
+import About from './pages/About'
 const App = () => {
   return (
     <div>
-      <BrowserRouter>
-        <Nav />
-      <Router>
-        <Route/>
-      </Router>
-      </BrowserRouter>
-      
+      <Nav/>
+      <section id='home'>
+        <Home/>
+      </section>
+      <section id='about'>
+        <About/>
+      </section>
+      <Contact/>
     </div>
   )
 }
