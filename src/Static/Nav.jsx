@@ -26,7 +26,7 @@ const Nav = () => {
         <section className=' flex gap-10 max-tablet:hidden'>
             <a href='#home' className=' text-[22px] font-medium text-white font-sans' >Home</a>
             <a href='#about' className=' text-[22px] font-medium text-white font-sans'>About</a>
-            <p className=' text-[22px] font-medium text-white font-sans'>Skills</p>
+            <a href='#skills' className=' text-[22px] font-medium text-white font-sans'>Skills</a>
             <p className=' text-[22px] font-medium text-white font-sans'>Projects</p>
             <p className=' text-[22px] font-medium text-white font-sans'>Contact</p>
         </section>
