@@ -3,6 +3,7 @@ import Nav from './Static/Nav'
 import Home from './pages/Home'
 import Contact from './pages/Contact'
 import About from './pages/About'
+import Skills from './pages/Skills'
 const App = () => {
   return (
     <div>
@@ -12,6 +13,9 @@ const App = () => {
       </section>
       <section id='about'>
         <About/>
+      </section>
+      <section>
+        <Skills/>
       </section>
       <Contact/>
     </div>
