@@ -21,9 +21,9 @@ const About = () => {
 
     Outside of coding, I enjoy reading books, exploring myself, and learning something new every day.
     </p>
-    <div className=' text-'>
+    <a href='/BLESSING-GBADAMOSI-FlowCV-Resume-20250724.pdf' download>
     <button className=' bg-[#074188] p-3 rounded-[10px] text-white text-[20px] mt-3  font-medium'>Download CV</button>
-    </div>
+    </a>
         </section>
     </div>
     </div>

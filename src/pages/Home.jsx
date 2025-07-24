@@ -11,14 +11,14 @@ const Home = () => {
         <h1 className=' text-[30px] text-white'>i'm <span className=' text-[42px] font-bold'>Gbadamosi Blessing,</span></h1>
         <p className=' text-[30px] font-medium text-white'>a Software Developer</p>
         <p className=' text-[30px] text-white'>i'm a <AnimatedText/></p>
-        <div className=' flex   gap-8'>
+        <div className=' flex items-center gap-5'>
           <a href="#contact"> <button  className=' bg-[#074188] p-3 rounded-md text-[23px] font-medium text-white '>Contact Me</button>  </a>
-          <div className=' bg-white p-2 w-fit rounded-md'>
+          <div className='flex justify-center items-center bg-white py-1 px-2 w-fit rounded-md'>
             <a href="">
           <FaGithubSquare size={30}/>
           </a>
           </div>
-          <div className=' flex justify-center items-center bg-white  w-fit rounded-md'>
+          <div className=' flex justify-center items-center bg-white py-1 px-2  w-fit rounded-md'>
           <a href="" className=' text-[#074188]'>
           <FaLinkedin size={30}/>
           </a>
