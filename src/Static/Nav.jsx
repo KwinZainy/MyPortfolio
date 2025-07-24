@@ -3,6 +3,8 @@ import Hamburger from '../pages/Hamburger';
 
 const Nav = () => {
   const [scrolled, setScrolled] = useState(false)
+
+
   useEffect(()=>{
    const handleScroll = ()=>{
      const set = window.scrollY;
@@ -18,7 +20,7 @@ const Nav = () => {
 
   }, [])
   return (
-    <div className={` flex justify-between  px-49 py-4 items-center transition-all duration-300 max-tablet:px-15 z-50 fixed w-full ${scrolled? 'bg-[#074188] shadow-md': 'bg-transparent'}`}>
+    <div className={` flex justify-between  px-49 py-4 items-center transition-all duration-300 max-tablet:px-15 z-50 fixed w-full ${scrolled? 'bg-[#074188] shadow-md': 'bg-transparent'} max-mobile:bg-amber-600`}>
         <section className=' flex items-baseline'>
             <h1 className={`text-[40px] font-bold font-serif text-[#074188] ${scrolled? 'text-white' : 'text-[#074188]'}`} >Z<span className=' text-white'>.</span></h1>
             <p className=' text-[25px] font-medium text-white font-serif italic'>codes</p>
@@ -27,8 +29,8 @@ const Nav = () => {
             <a href='#home' className=' text-[22px] font-medium text-white font-sans' >Home</a>
             <a href='#about' className=' text-[22px] font-medium text-white font-sans'>About</a>
             <a href='#skills' className=' text-[22px] font-medium text-white font-sans'>Skills</a>
-            <p className=' text-[22px] font-medium text-white font-sans'>Projects</p>
-            <p className=' text-[22px] font-medium text-white font-sans'>Contact</p>
+            <a href='#projects' className=' text-[22px] font-medium text-white font-sans'>Projects</a>
+            <a href='#contact' className=' text-[22px] font-medium text-white font-sans'>Contact</a>
         </section>
         <section className=' hidden max-tablet:block '>
             <Hamburger/>

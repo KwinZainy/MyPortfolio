@@ -31,7 +31,7 @@ const Skills = () => {
              <p className=' text-white'><RiArrowDropDownLine size={30}/></p>
              </p>
         {drop[0] &&(
-            <section className=' absolute bg-white w-[350px] p-5 rounded-2xl flex items-center'>
+            <section className=' absolute bg-[#F2F7F8] w-[350px] p-5 rounded-2xl flex items-center'>
                 <div className=' gap-3 w-[50%]'>
 
                 <div className=' flex items-center p-3 gap-2 '>
@@ -71,7 +71,7 @@ const Skills = () => {
             <p className=' text-white'><RiArrowDropDownLine size={30}/></p>
             </p>
         {drop[1]&&(
-            <section className=' absolute bg-white w-[300px] rounded-2xl py-3 pl-4 '>
+            <section className=' absolute bg-[#F2F7F8] w-[300px] rounded-2xl py-3 pl-4 '>
                 <div className=' flex items-center p-3 gap-2'>
                     <p className=' bg-[#FFECE3] rounded-2xl p-2 text-[#FF4E00]'><SiTailwindcss size={30}/></p>
                     <p className=' text-[20px]  italic' >Tailwind Css</p>
@@ -93,7 +93,7 @@ const Skills = () => {
             <p className=' text-white'><RiArrowDropDownLine size={30}/></p>
             </p>
         {drop[2]&&(
-            <section className=' absolute bg-white w-[250px] rounded-2xl py-3 pl-4'>
+            <section className=' absolute bg-[#F2F7F8] w-[250px] rounded-2xl py-3 pl-4'>
                 <ul className=' list-disc pl-4 py-3'>
                     <li className=' text-[20px] font-medium font-serif'>React Context API</li>
                     <li className=' text-[20px] font-medium font-serif'>React Context API</li>

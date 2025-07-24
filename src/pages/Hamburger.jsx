@@ -8,17 +8,29 @@ const Hamburger = () => {
     <div>
         <div>
         <button onClick={() =>(setIsOpen(!isOpen))} className=' hover:text-[#074188]'>
-            {isOpen? <IoMdClose size={30} className=' text-white'/> : <RxHamburgerMenu size={30} className=' text-white'/>}
+            {isOpen? <IoMdClose size={30} className=' text-black'/> : <RxHamburgerMenu size={30} className='text-white'/>}
         </button >
         </div>
-            <div  className=' bg-white  py-10 shadow-md z-50 w-full fixed left-0 top-20 h-dvh'>
+            <div  className=' py-10 shadow-md z-50 w-full fixed left-0 top-20 h-vh'>
         {isOpen&&(
-            <section className=' flex flex-col gap-12 items-center '>
-            <p className=' text-[22px] font-medium text-black font-sans shadow-md p-2 rounded-[10px] cursor-pointer  hover:text-white hover:bg-[#0065E1]'>Home</p>
-            <p className=' text-[22px] font-medium text-black font-sans shadow-md p-2 rounded-[10px] cursor-pointer  hover:text-white hover:bg-[#0065E1]'>About</p>
-            <p className=' text-[22px] font-medium text-black font-sans shadow-md p-2 rounded-[10px] cursor-pointer  hover:text-white hover:bg-[#0065E1]'>Skills</p>
-            <p className=' text-[22px] font-medium text-black font-sans shadow-md p-2 rounded-[10px] cursor-pointer  hover:text-white hover:bg-[#0065E1]'>Projects</p>
-            <p className=' text-[22px] font-medium text-black font-sans shadow-md p-2 rounded-[10px] cursor-pointer  hover:text-white hover:bg-[#0065E1]'>Contact</p>
+            <section className=' bg-[#848484] flex flex-col gap-12 items-center h-screen py-10 fixed inset-0 overflow-y-hidden'>
+                <div className=' flex justify-between items-center w-full px-10'>
+                    <div className=' flex items-baseline gap-0.5'>
+
+                           <h1 className={`text-[40px] font-bold font-serif text-[#074188] `} >Z<span className=' text-white'>.</span></h1>
+            <p className=' text-[25px] font-medium text-white font-serif italic'>codes</p>
+                    </div>
+                <button onClick={() =>(setIsOpen(!isOpen))} className=' hover:text-[#074188]'>
+            {isOpen? <IoMdClose size={30} className=' text-black'/> : <RxHamburgerMenu size={30} className='text-white'/>}
+        </button >
+                </div>
+        <div className=' flex flex-col gap-14 w-full text-center px-7'>
+            <p className='bg-white text-[22px] font-medium text-black font-sans shadow-md p-2 rounded-[10px] cursor-pointer  hover:text-white hover:bg-[#0065E1]'>Home</p>
+            <p className='bg-white text-[22px] font-medium text-black font-sans shadow-md p-2 rounded-[10px] cursor-pointer  hover:text-white hover:bg-[#0065E1]'>About</p>
+            <p className='bg-white text-[22px] font-medium text-black font-sans shadow-md p-2 rounded-[10px] cursor-pointer  hover:text-white hover:bg-[#0065E1]'>Skills</p>
+            <p className='bg-white text-[22px] font-medium text-black font-sans shadow-md p-2 rounded-[10px] cursor-pointer  hover:text-white hover:bg-[#0065E1]'>Projects</p>
+            <p className='bg-white text-[22px] font-medium text-black font-sans shadow-md p-2 rounded-[10px] cursor-pointer  hover:text-white hover:bg-[#0065E1]'>Contact</p>
+            </div>
         </section>
         )}
     </div>

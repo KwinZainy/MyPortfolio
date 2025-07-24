@@ -18,10 +18,11 @@ const App = () => {
       <section id='skills'>
         <Skills/>
       </section>
-      <section>
+      <section id='projects'>
         <Project/>
       </section>
-      <Contact/>
+      <section id='contact'><Contact/></section>
+      
     </div>
   )
 }
