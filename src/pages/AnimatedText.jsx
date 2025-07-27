@@ -17,7 +17,7 @@ const AnimatedText = () => {
     wrapper = 'span'
     speed = {50}
     repeat = {Infinity}
-    className = 'text-[50px] text-[#074188] font-bold backdrop-blur-md bg-white/70 z-10 italic rounded-md'
+    className = 'text-[50px] text-[#074188] font-bold backdrop-blur-md bg-white/70 z-10 italic rounded-md max-mobile:text-[30px]'
     />
   )
 }
