@@ -4,9 +4,9 @@ import { FaGithubSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 const Home = () => {
   return (
-    <div id='home' className=' relative min-h-screen pt-60 bg-[url("/img1.jpg")]  bg-center bg-cover max-tablet:pt-32   '>
+    <div id='home' className=' relative min-h-screen pt-60 bg-[url("/img1.jpg")]  bg-center bg-cover max-tablet:pt-65   '>
           <div className="absolute inset-0 z-0 bg-black/60"></div>
-          <div className=' flex flex-col px-30 justify-center gap-3 z-10 relative h-full '>
+          <div className=' flex flex-col px-30 justify-center gap-3 z-10 relative h-full max-tablet:px-20 max-mobile:'>
         <p className='text-[20px] font-medium text-white'>Hello,</p>
         <h1 className=' text-[30px] text-white'>i'm <span className=' text-[42px] font-bold'>Gbadamosi Blessing,</span></h1>
         <p className=' text-[30px] font-medium text-white'>a Software Developer</p>
