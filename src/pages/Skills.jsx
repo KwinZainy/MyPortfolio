@@ -18,7 +18,7 @@ const Skills = () => {
         })
     }
   return (
-    <div id='skills' className=' bg-[#073267]  pt-26  '>
+    <div id='skills' className=' bg-[#073267]  pt-26 max-w-[1020px] '>
         <h1 className=' text-center text-[30px] text-white font-bold font-serif'>What i Build With.</h1>
         <div className=' flex text-center items-center justify-center gap-2' >
         <h1 className='  text-[20px] text-white font-medium font-sans '>My Skills</h1>
