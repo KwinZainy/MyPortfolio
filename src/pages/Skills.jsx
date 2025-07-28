@@ -18,13 +18,14 @@ const Skills = () => {
         })
     }
   return (
-    <div id='skills' className=' bg-[#073267]  pt-26 max-w-[1020px] '>
+    <div id='skills' className=' bg-[#073267]  pt-26  '>
+        <div className=' max-w-[2020px] m-auto'>
         <h1 className=' text-center text-[30px] text-white font-bold font-serif'>What i Build With.</h1>
         <div className=' flex text-center items-center justify-center gap-2' >
         <h1 className='  text-[20px] text-white font-medium font-sans '>My Skills</h1>
         <p className=' bg-white p-2  rounded-[10px]'><BsTools size={20}/></p>
         </div>
-        <div  className=' flex  justify-around gap-40 py-20 w-[100%] relative px-40'>
+        <div  className=' flex  justify-around gap-40 py-20 w-[100%] bg-red-500 relative px-40'>
        <section className=''>
         <p onMouseEnter={()=>dropText(0)} onMouseLeave={()=>dropText(0)} className=' flex items-end cursor-pointer'>
              <p className='  text-white text-[20px] font-medium'>Core Technologies</p> 
@@ -67,7 +68,7 @@ const Skills = () => {
        </section>
        <section className=' '>
         <p onMouseEnter={()=>dropText(1)} onMouseLeave={()=>dropText(1)} className=' cursor-pointer flex items-end'>
-            <p className='  text-white text-[20px] font-medium'>Styling Tools</p>
+            <p className='  text-black text-[20px] font-medium'>Styling Tools</p>
             <p className=' text-white'><RiArrowDropDownLine size={30}/></p>
             </p>
         {drop[1]&&(
@@ -89,7 +90,7 @@ const Skills = () => {
        </section>
        <section className=''>
         <p onMouseEnter={()=>dropText(2)} onMouseLeave={()=>dropText(2)} className=' cursor-pointer flex items-end '>
-            <p className='  text-white text-[20px] font-medium'>Other Skills</p>
+            <p className='  text-black text-[20px] font-medium'>Other Skills</p>
             <p className=' text-white'><RiArrowDropDownLine size={30}/></p>
             </p>
         {drop[2]&&(
@@ -105,6 +106,7 @@ const Skills = () => {
         )}
        </section>
        </div>
+    </div>
     </div>
   )
 }

@@ -21,7 +21,7 @@ const Nav = () => {
   }, [])
   return (
     <div className={` flex justify-between  px-49 py-4 items-center transition-all duration-300 max-tablet:px-25 z-50 fixed w-full ${scrolled? 'bg-[#074188] shadow-md': 'bg-transparent'} max-mobile:px-10`}>
-        <section className=' flex items-baseline'>
+        <section className=' flex items-baseline '>
             <h1 className={`text-[40px] font-bold font-serif max-w-[1020px] text-[#074188] ${scrolled? 'text-white' : 'text-[#074188]'}`} >Z<span className=' text-white'>.</span></h1>
             <p className=' text-[25px] font-medium text-white font-serif italic'>codes</p>
         </section>
