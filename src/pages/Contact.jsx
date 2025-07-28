@@ -4,11 +4,11 @@ const Contact = () => {
   return (
     <div id='contact'>
       <div className=' bg-[#073267] p-5'>
-      <h1 className=' text-[30px] text-white text-center font-bold font-serif'>Don’t Be a Stranger</h1>
-      <p className=' text-[20px] text-white text-center font-medium font-sans'>Contact Me</p>
+      <h1 className=' text-[30px] text-white text-center font-bold font-serif max-tablet:text-[25px] max-mobile:text-[20px]'>Don’t Be a Stranger</h1>
+      <p className=' text-[20px] text-white text-center font-medium font-sans max-tablet:text-[18px] max-mobile:text-[16px]'>Contact Me</p>
       </div>
-      <div className=' flex justify-center items-center gap-4 my-24  '>
-      <section className=' w-[40%] '>
+      <div className=' flex justify-center items-center gap-4 my-24  max-tablet:flex-col '>
+      <section className=' w-[40%] max-tablet:w-[80%] mb-10'>
         <p className=' mb-4  text-[18px] font-medium'>“Feel free to reach out if you’d like to work together, have a project in mind, or just want to connect. I’m always open to new opportunities and happy to chat!”</p>
         <div className=' '>
           <p className=' pb-2 text-[20px] font-bold'>Name: <span className=' text-[18px] font-normal italic'>Gbadamosi Blessing</span></p>
@@ -17,13 +17,13 @@ const Contact = () => {
           <p className=' pb-2 text-[20px] font-bold'>Phone Number: <span className=' text-[18px] font-normal italic'>+234 8144808482</span></p>
         </div>
       </section> 
-      <section className='' >
-        <div className=' flex gap-6 mb-4'>
-        <div>
-        <input type="text" name='Name' placeholder=' Name'  className=' border-gray-400 rounded-[10px]  border-1 p-3 '/>
+      <section className=' max-tablet:w-[80%]' >
+        <div className=' flex gap-6 mb-4 justify-between w-full '>
+        <div className='   w-[50%] '>
+        <input type="text" name='Name' placeholder=' Name'  className=' border-gray-400 rounded-[10px]  w-full  border-1 p-3 '/>
         </div>
-        <div >
-          <input type="text" name='email' placeholder=' Email' className=' border-gray-400 rounded-[10px]  border-1 p-3 '/>
+        <div  className='   w-[50%] '>
+          <input type="text" name='email' placeholder=' Email' className=' border-gray-400 rounded-[10px]  w-full  border-1 p-3 '/>
         </div>
         </div>
         <div >
