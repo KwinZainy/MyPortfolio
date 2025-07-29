@@ -25,7 +25,7 @@ const Skills = () => {
         <h1 className='  text-[20px] text-white font-medium font-sans  max-tablet:text-[17px] max-mobile:text-[16   px]'>My Skills</h1>
         <p className=' bg-white p-2  max-tablet:p-0.5 rounded-[10px]'><BsTools size={20} className=' max-tablet:w-6'/></p>
         </div>
-        <div  className=' flex  justify-around gap-40 py-20 w-[100%]  max-tablet:bg-white max-tablet:rounded-[20px]  max-mobile:p-10 max-tablet:m-auto max-tablet:my-[30px] relative px-40 max-tablet:flex-col max-tablet:items-center'>
+        <div  className=' flex  justify-around gap-40 py-20 w-[100%] max-mobile:m-  max-tablet:bg-white max-tablet:rounded-[20px]  max-mobile:py-5 max-mobile:px-0 max-tablet:m-auto max-tablet:my-[30px] relative px-40 max-tablet:flex-col max-tablet:items-center'>
        <section className=''>
         <p onMouseEnter={()=>dropText(0)} onMouseLeave={()=>dropText(0)} className=' flex items-end cursor-pointer'>
              <p className='  text-white text-[20px] font-medium max-tablet:text-[#073267]'>Core Technologies</p> 
