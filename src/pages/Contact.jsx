@@ -11,10 +11,10 @@ const Contact = () => {
       <section className=' w-[40%] max-tablet:w-[80%] mb-10'>
         <p className=' mb-4  text-[18px] font-medium'>“Feel free to reach out if you’d like to work together, have a project in mind, or just want to connect. I’m always open to new opportunities and happy to chat!”</p>
         <div className=' '>
-          <p className=' pb-2 text-[20px] font-bold'>Name: <span className=' text-[18px] font-normal italic'>Gbadamosi Blessing</span></p>
-          <p className=' pb-2 text-[20px] font-bold'>Email: <span className=' text-[18px] font-normal italic'>gbadamosiblessing651@gmail.com</span></p>
-          <p className=' pb-2 text-[20px] font-bold'>Address: <span className=' text-[18px] font-normal italic'>Lagos, Nigeria.</span></p>
-          <p className=' pb-2 text-[20px] font-bold'>Phone Number: <span className=' text-[18px] font-normal italic'>+234 8144808482</span></p>
+          <p className=' pb-2 text-[20px] font-bold max-mobile:text-[18px]'>Name: <span className=' text-[18px] font-normal italic max-mobile:text-[14px]'>Gbadamosi Blessing</span></p>
+          <p className=' pb-2 text-[20px] font-bold max-mobile:text-[18px]'>Email: <span className=' text-[18px] font-normal italic max-mobile:text-[14px]'>gbadamosiblessing651@gmail.com</span></p>
+          <p className=' pb-2 text-[20px] font-bold max-mobile:text-[18px]'>Address: <span className=' text-[18px] font-normal italic'>Lagos, Nigeria.</span></p>
+          <p className=' pb-2 text-[20px] font-bold max-mobile:text-[18px]'>Phone Number: <span className=' text-[18px] font-normal italic'>+234 8144808482</span></p>
         </div>
       </section> 
       <section className=' max-tablet:w-[80%]' >

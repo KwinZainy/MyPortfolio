@@ -18,21 +18,21 @@ const Skills = () => {
         })
     }
   return (
-    <div id='skills' className=' bg-[#073267] p-24  '>
+    <div id='skills' className=' bg-[#073267] p-24 max-mobile:p-8 '>
         <div className=' max-w-[2020px] m-auto'>
         <h1 className=' text-center text-[30px] text-white font-bold font-serif max-tablet:text-[25px] max-mobile:text-[20px]'>What i Build With.</h1>
         <div className=' flex text-center items-center justify-center gap-2' >
         <h1 className='  text-[20px] text-white font-medium font-sans  max-tablet:text-[17px] max-mobile:text-[16   px]'>My Skills</h1>
         <p className=' bg-white p-2  max-tablet:p-0.5 rounded-[10px]'><BsTools size={20} className=' max-tablet:w-6'/></p>
         </div>
-        <div  className=' flex  justify-around gap-40 py-20 w-[100%] max-mobile:m-  max-tablet:bg-white max-tablet:rounded-[20px]  max-mobile:py-5 max-mobile:px-0 max-tablet:m-auto max-tablet:my-[30px] relative px-40 max-tablet:flex-col max-tablet:items-center'>
+        <div  className=' flex  justify-around gap-40 py-20 w-[100%] max-mobile: max-mobile:overflow-y-scroll  max-tablet:bg-white max-tablet:rounded-[20px]  max-mobile:py-5 max-mobile:px-0 max-tablet:m-auto max-tablet:my-[30px] relative px-40 max-tablet:flex-col max-tablet:items-center'>
        <section className=''>
-        <p onMouseEnter={()=>dropText(0)} onMouseLeave={()=>dropText(0)} className=' flex items-end cursor-pointer'>
+        <p onClick={()=>dropText(0)} className=' flex items-end cursor-pointer'>
              <p className='  text-white text-[20px] font-medium max-tablet:text-[#073267]'>Core Technologies</p> 
              <p className=' text-white max-tablet:text-[#073267]'><RiArrowDropDownLine size={30}/></p>
              </p>
         {drop[0] &&(
-            <section className=' absolute bg-[#F2F7F8] w-[350px] max-mobile:w-[250px]  p-5 rounded-2xl flex items-center'>
+            <section className=' absolute bg-[#F2F7F8] w-[350px] max-mobile:w-[200px] max-mobile:items-start max-mobile:flex-col flex p-5 rounded-2xl '>
                 <div className=' gap-3 w-[50%]'>
 
                 <div className=' flex items-center p-3 gap-2 '>
@@ -67,7 +67,7 @@ const Skills = () => {
         )}
        </section>
        <section className=' '>
-        <p onMouseEnter={()=>dropText(1)} onMouseLeave={()=>dropText(1)} className=' cursor-pointer flex items-end'>
+        <p onClick={()=>dropText(1)} className=' cursor-pointer flex items-end'>
             <p className='  text-white text-[20px] font-medium max-tablet:text-[#073267]'>Styling Tools</p>
             <p className=' text-white max-tablet:text-[#073267]'><RiArrowDropDownLine size={30}/></p>
             </p>
@@ -89,7 +89,7 @@ const Skills = () => {
         )}
        </section>
        <section className=''>
-        <p onMouseEnter={()=>dropText(2)} onMouseLeave={()=>dropText(2)} className=' cursor-pointer flex items-end '>
+        <p onClick={()=>dropText(2)}  className=' cursor-pointer flex items-end '>
             <p className='  text-white text-[20px] font-medium max-tablet:text-[#073267]'>Other Skills</p>
             <p className=' text-white max-tablet:text-[#073267]'><RiArrowDropDownLine size={30}/></p>
             </p>
