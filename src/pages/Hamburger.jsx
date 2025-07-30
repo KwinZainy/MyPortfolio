@@ -25,8 +25,8 @@ const Hamburger = () => {
         </button >
                 </div>
         <div className=' flex flex-col gap-14 w-full text-center px-7'>
-            <a href='/home' className='bg-white text-[22px] font-medium text-black font-sans shadow-md p-2 rounded-[10px] cursor-pointer  hover:text-white hover:bg-[#0065E1]'>Home</a>
-            <a href='/about' className='bg-white text-[22px] font-medium text-black font-sans shadow-md p-2 rounded-[10px] cursor-pointer  hover:text-white hover:bg-[#0065E1]'>About</a>
+            <a id='/home' className='bg-white text-[22px] font-medium text-black font-sans shadow-md p-2 rounded-[10px] cursor-pointer  hover:text-white hover:bg-[#0065E1]'>Home</a>
+            <a id='/about' className='bg-white text-[22px] font-medium text-black font-sans shadow-md p-2 rounded-[10px] cursor-pointer  hover:text-white hover:bg-[#0065E1]'>About</a>
             <a href='/skills' className='bg-white text-[22px] font-medium text-black font-sans shadow-md p-2 rounded-[10px] cursor-pointer  hover:text-white hover:bg-[#0065E1]'>Skills</a>
             <a href='/projects' className='bg-white text-[22px] font-medium text-black font-sans shadow-md p-2 rounded-[10px] cursor-pointer  hover:text-white hover:bg-[#0065E1]'>Projects</a>
             <a href='/contact' className='bg-white text-[22px] font-medium text-black font-sans shadow-md p-2 rounded-[10px] cursor-pointer  hover:text-white hover:bg-[#0065E1]'>Contact</a>
