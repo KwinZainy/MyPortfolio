@@ -11,7 +11,7 @@ const Hamburger = () => {
             {isOpen? <IoMdClose size={30} className=' text-black'/> : <RxHamburgerMenu size={30} className='text-white'/>}
         </button >
         </div>
-            <div  className=' py-10 shadow-md z-50 w-full fixed left-0 top-20 h-vh'>
+            <div  className=' py-10 shadow-md z-50 w-full fixed left-0 top-0 h-vh'>
         {isOpen&&(
             <section className=' bg-[#848484] flex flex-col gap-12 items-center h-screen py-10 fixed inset-0 overflow-y-hidden'>
                 <div className=' flex justify-between items-center w-full px-10'>
@@ -30,7 +30,7 @@ const Hamburger = () => {
             <a onClick={()=>(setIsOpen(false))} href='#skills' className='bg-white text-[22px] font-medium text-black font-sans shadow-md p-2 rounded-[10px] cursor-pointer  hover:text-white hover:bg-[#0065E1]'>Skills</a>
             <a onClick={()=>(setIsOpen(false))} href='#projects' className='bg-white text-[22px] font-medium text-black font-sans shadow-md p-2 rounded-[10px] cursor-pointer  hover:text-white hover:bg-[#0065E1]'>Projects</a>
             <a onClick={()=>(setIsOpen(false))} href='#contact' className='bg-white text-[22px] font-medium text-black font-sans shadow-md p-2 rounded-[10px] cursor-pointer  hover:text-white hover:bg-[#0065E1]'>Contact</a>
-            </div>
+            </div>   
         </section>
         )}
     </div>

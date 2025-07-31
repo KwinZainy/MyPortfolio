@@ -20,7 +20,7 @@ const Project = () => {
                 </a>
                 </div>
             <div className='bg-[#F2F7F8] p-14 rounded-3xl shadow-2xl transition max-tablet:mb-6 duration-300 max-mobile:mb-6 hover:scale-105 '>
-                <a href=" countries-liard-one.vercel.app" target='_blank' rel=' noopener noreferrer'>
+                <a href="https://countries-liard-one.vercel.app/" target='_blank' rel=' noopener noreferrer'>
                 <img src="./country.jpg" alt="" className=' w-[300px] rounded-[80%] border-black border-2 transition'/>
                 <p className=' text-center pt-3 text-[20px] text-[#074188] font-medium'>All Countries</p>
                 </a>
