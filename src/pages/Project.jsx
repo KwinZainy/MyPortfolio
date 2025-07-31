@@ -8,7 +8,7 @@ const Project = () => {
         <div >
         <section className=' flex  items-center text-center justify-center gap-6  space-x-4 flex-wrap w-[100%] p-4 mx-auto bg-[074188] '>
             <div className='bg-[#F2F7F8] rounded-3xl shadow-2xl px-16 py-12 max-tablet:mb-6 max-mobile:mb-6 pt-8 transition duration-300 hover:scale-105'>
-               <a href=" https://piggyvest-with-react-1g8oc9auq-blessings-projects-70e43eb1.vercel.app/" target='_blank'  rel=' noopener noreferrer' >
+               <a href="https://piggyvest-with-react-wp53.vercel.app/" target='_blank'  rel=' noopener noreferrer' >
                 <img src="./piggy.jpg" alt="" className=' w-[270px] rounded-[80%] border-black border-2 '/>
                 <p className=' text-center pt-3 text-[20px] text-[#074188] font-medium'>Cloned Website</p>
                 </a> 

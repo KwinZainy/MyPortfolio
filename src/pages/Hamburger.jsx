@@ -25,11 +25,11 @@ const Hamburger = () => {
         </button >
                 </div>
         <div className=' flex flex-col gap-14 w-full text-center px-7'>
-            <a id='/home' className='bg-white text-[22px] font-medium text-black font-sans shadow-md p-2 rounded-[10px] cursor-pointer  hover:text-white hover:bg-[#0065E1]'>Home</a>
-            <a id='/about' className='bg-white text-[22px] font-medium text-black font-sans shadow-md p-2 rounded-[10px] cursor-pointer  hover:text-white hover:bg-[#0065E1]'>About</a>
-            <a href='/skills' className='bg-white text-[22px] font-medium text-black font-sans shadow-md p-2 rounded-[10px] cursor-pointer  hover:text-white hover:bg-[#0065E1]'>Skills</a>
-            <a href='/projects' className='bg-white text-[22px] font-medium text-black font-sans shadow-md p-2 rounded-[10px] cursor-pointer  hover:text-white hover:bg-[#0065E1]'>Projects</a>
-            <a href='/contact' className='bg-white text-[22px] font-medium text-black font-sans shadow-md p-2 rounded-[10px] cursor-pointer  hover:text-white hover:bg-[#0065E1]'>Contact</a>
+            <a onClick={()=>(setIsOpen(false))} href='#home' className='bg-white text-[22px] font-medium text-black font-sans shadow-md p-2 rounded-[10px] cursor-pointer  hover:text-white hover:bg-[#0065E1]'>Home</a>
+            <a onClick={()=>(setIsOpen(false))} href='#about' className='bg-white text-[22px] font-medium text-black font-sans shadow-md p-2 rounded-[10px] cursor-pointer  hover:text-white hover:bg-[#0065E1]'>About</a>
+            <a onClick={()=>(setIsOpen(false))} href='#skills' className='bg-white text-[22px] font-medium text-black font-sans shadow-md p-2 rounded-[10px] cursor-pointer  hover:text-white hover:bg-[#0065E1]'>Skills</a>
+            <a onClick={()=>(setIsOpen(false))} href='#projects' className='bg-white text-[22px] font-medium text-black font-sans shadow-md p-2 rounded-[10px] cursor-pointer  hover:text-white hover:bg-[#0065E1]'>Projects</a>
+            <a onClick={()=>(setIsOpen(false))} href='#contact' className='bg-white text-[22px] font-medium text-black font-sans shadow-md p-2 rounded-[10px] cursor-pointer  hover:text-white hover:bg-[#0065E1]'>Contact</a>
             </div>
         </section>
         )}
