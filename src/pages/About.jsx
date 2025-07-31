@@ -11,7 +11,7 @@ const About = () => {
         </div>
         <div className=' flex justify-center items-center max-tablet:flex-col'>
         <section className=' w-[35%] max-tablet:w-[80%] max-tablet:mx-10'>
-            <img src="./myImage.jpg" alt="" className=' shadow-2xs  rounded-2xl w-[350px] max-tablet:w-fit '/>
+            <img src="./pics.jpg" alt="" className=' shadow-2xs  rounded-2xl w-[300px] h-[] max-tablet:w-fit '/>
         </section>
         <section className=' w-[35%] max-tablet:w-[70%] max-mobile:w-[90%] max-tablet:mt-[30px] '>
             <p className=' text-[40px] '>A <AnimatedText/></p>
